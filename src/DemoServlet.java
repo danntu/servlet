@@ -10,9 +10,10 @@ public class DemoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
-        out.print("Welcome to DemoServlet");
+        out.print("Welcome to DemoServlet<br>");
+        out.println("<b>Using init-param web.xml Driver is"+getServletConfig().getInitParameter("driver")+"</b>");
         try {
-            Thread.sleep(10000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
