@@ -19,8 +19,8 @@ public class First implements Servlet{
         servletResponse.setContentType("text/html");
         PrintWriter out = servletResponse.getWriter();
         out.print("<b>Hello simple servlet</b>");
-        out.print(getServletInfo());
-        out.print(getServletConfig());
+        out.print("<br>"+getServletInfo());
+        out.print("<br>"+getServletConfig());
     }
 
     @Override
