@@ -12,6 +12,7 @@
   </head>
   <body>
   <a href="hello">Servlet Interface</a><br>
-  <a href="hellogeneric">Invoke Generic Servlet</a>
+  <a href="hellogeneric">Invoke Generic Servlet</a><br>
+  <a href="demoservlet">Invoke DemoServlet extends HttpServlet</a><br>
   </body>
 </html>
