@@ -27,6 +27,10 @@
         <servlet-name>s6</servlet-name>
         <servlet-class>WelcomeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>s7</servlet-name>
+        <servlet-class>GoogleSearcher</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>s1</servlet-name>
@@ -51,6 +55,10 @@
     <servlet-mapping>
         <servlet-name>s6</servlet-name>
         <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s7</servlet-name>
+        <url-pattern>/google</url-pattern>
     </servlet-mapping>
 
 

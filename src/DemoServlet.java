@@ -11,6 +11,12 @@ public class DemoServlet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         out.print("Welcome to DemoServlet");
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //resp.sendRedirect("http://google.kz");
         out.close();
     }
 }
