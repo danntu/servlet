@@ -14,5 +14,8 @@
   <a href="hello">Servlet Interface</a><br>
   <a href="hellogeneric">Invoke Generic Servlet</a><br>
   <a href="demoservlet">Invoke DemoServlet extends HttpServlet</a><br>
+  <a href="demoserv?name=Test">Invoke DemoServ (method doGet())</a><br>
+
+
   </body>
 </html>
