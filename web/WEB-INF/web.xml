@@ -18,6 +18,14 @@
             <param-name>driver</param-name>
             <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
         </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>system</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>oracle</param-value>
+        </init-param>
     </servlet>
     <servlet>
         <servlet-name>s4</servlet-name>
