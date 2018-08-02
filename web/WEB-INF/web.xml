@@ -51,6 +51,14 @@
         <servlet-name>s9</servlet-name>
         <servlet-class>DemoServlet2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>s10</servlet-name>
+        <servlet-class>FirstServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>s11</servlet-name>
+        <servlet-class>Second</servlet-class>
+    </servlet>
 
 
     <context-param>
@@ -103,6 +111,14 @@
     <servlet-mapping>
         <servlet-name>s9</servlet-name>
         <url-pattern>/servlet2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s10</servlet-name>
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s11</servlet-name>
+        <url-pattern>/second</url-pattern>
     </servlet-mapping>
 
 
