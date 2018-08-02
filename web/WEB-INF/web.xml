@@ -44,6 +44,22 @@
         <servlet-class>GoogleSearcher</servlet-class>
     </servlet>
 
+
+    <context-param>
+        <param-name>drivername</param-name>
+        <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>system</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>oracle</param-value>
+    </context-param>
+
     <servlet-mapping>
         <servlet-name>s1</servlet-name>
         <url-pattern>/hello</url-pattern>

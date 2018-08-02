@@ -1,3 +1,4 @@
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -15,7 +16,7 @@ public class DemoServlet extends HttpServlet {
         out.print("<b>Using init-param web.xml Driver is"+getServletConfig().getInitParameter("driver")+"</b><br>");
 
         out.print(" getInitParameterNames");
-        Enumeration<String> e =getServletConfig().getInitParameterNames();
+        Enumeration<String> e = getServletConfig().getInitParameterNames();
         String str="";
         while(e.hasMoreElements()){
             str=e.nextElement();
@@ -23,11 +24,19 @@ public class DemoServlet extends HttpServlet {
             out.print(" value: "+getServletConfig().getInitParameter(str));
         }
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
+        out.print("<br><br><b>ServletContext</b><br>");
+        ServletContext context = getServletContext();
+        out.print("driver name is = "+context.getInitParameter("drivername"));
+        out.print("<br>");
+
+        e=context.getInitParameterNames();
+
+        str="";
+        while(e.hasMoreElements()){
+            str=e.nextElement();
+            out.print("<br> "+context.getInitParameter(str));
         }
+
         //resp.sendRedirect("http://google.kz");
         out.close();
     }
