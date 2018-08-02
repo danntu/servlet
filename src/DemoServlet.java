@@ -37,6 +37,9 @@ public class DemoServlet extends HttpServlet {
             out.print("<br> "+context.getInitParameter(str));
         }
 
+        out.print("<br>");
+        out.print(""+context.getRealPath(req.getServletPath()));
+
         //resp.sendRedirect("http://google.kz");
         out.close();
     }
