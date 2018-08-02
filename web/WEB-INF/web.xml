@@ -43,6 +43,14 @@
         <servlet-name>s7</servlet-name>
         <servlet-class>GoogleSearcher</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>s8</servlet-name>
+        <servlet-class>DemoServlet1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>s9</servlet-name>
+        <servlet-class>DemoServlet2</servlet-class>
+    </servlet>
 
 
     <context-param>
@@ -87,6 +95,14 @@
     <servlet-mapping>
         <servlet-name>s7</servlet-name>
         <url-pattern>/google</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s8</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s9</servlet-name>
+        <url-pattern>/servlet2</url-pattern>
     </servlet-mapping>
 
 
