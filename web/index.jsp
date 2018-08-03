@@ -19,7 +19,8 @@
   <a href="home.html">Home.html</a><br>
   <a href="googlesearch.html">Googlesearch.html</a><br>
   <a href="servlet1">SetAtribute DemoServlet1</a><br>
-  <a href="cookie.html">Cookie Example</a><br>
+  <a href="cookie/cookie.html">Cookie Example</a><br>
+  <a href="cookie/index.html">Servlet Login and Logout Example using Cookies</a><br>
 
   </body>
 </html>

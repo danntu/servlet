@@ -59,7 +59,21 @@
         <servlet-name>s11</servlet-name>
         <servlet-class>Second</servlet-class>
     </servlet>
-
+    <servlet>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>s12</servlet-name>
+        <servlet-class>cookie.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <display-name>LogoutServlet</display-name>
+        <servlet-name>s13</servlet-name>
+        <servlet-class>cookie.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+    <display-name>ProfileServlet</display-name>
+        <servlet-name>s14</servlet-name>
+        <servlet-class>cookie.ProfileServlet</servlet-class>
+    </servlet>
 
     <context-param>
         <param-name>drivername</param-name>
@@ -119,6 +133,18 @@
     <servlet-mapping>
         <servlet-name>s11</servlet-name>
         <url-pattern>/second</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s12</servlet-name>
+        <url-pattern>/cookie/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s13</servlet-name>
+        <url-pattern>/cookie/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s14</servlet-name>
+        <url-pattern>/cookie/ProfileServlet</url-pattern>
     </servlet-mapping>
 
 
