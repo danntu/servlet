@@ -82,6 +82,14 @@
         <servlet-name>s16</servlet-name>
         <servlet-class>hidden.SecondServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>s17</servlet-name>
+        <servlet-class>url.FirstServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>s18</servlet-name>
+        <servlet-class>url.SecondServlet</servlet-class>
+    </servlet>
 
     <context-param>
         <param-name>drivername</param-name>
@@ -161,6 +169,14 @@
     <servlet-mapping>
         <servlet-name>s16</servlet-name>
         <url-pattern>/hidden/hiddenServlet2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s17</servlet-name>
+        <url-pattern>/url/rewriteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s18</servlet-name>
+        <url-pattern>/url/rewriteServlet2</url-pattern>
     </servlet-mapping>
 
 
