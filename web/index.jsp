@@ -23,6 +23,7 @@
   <a href="cookie/index.html">Servlet Login and Logout Example using Cookies</a><br>
   <a href="hidden/index.html">Hidden Form Field</a><br>
   <a href="url/index.html">URL Rewriting</a><br>
+  <a href="session/index.html">HttpSession interface</a><br>
 
   </body>
 </html>
