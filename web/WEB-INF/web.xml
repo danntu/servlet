@@ -98,6 +98,18 @@
         <servlet-name>s20</servlet-name>
         <servlet-class>session.SecondServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>s21</servlet-name>
+        <servlet-class>sessionexample.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>s22</servlet-name>
+        <servlet-class>sessionexample.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>s23</servlet-name>
+        <servlet-class>sessionexample.Profile</servlet-class>
+    </servlet>
 
     <context-param>
         <param-name>drivername</param-name>
@@ -193,6 +205,18 @@
     <servlet-mapping>
         <servlet-name>s20</servlet-name>
         <url-pattern>/session/sessionServlet2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s21</servlet-name>
+        <url-pattern>/sessionexample/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s22</servlet-name>
+        <url-pattern>/sessionexample/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s23</servlet-name>
+        <url-pattern>/sessionexample/ProfileServlet</url-pattern>
     </servlet-mapping>
 
 

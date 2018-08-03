@@ -24,6 +24,7 @@
   <a href="hidden/index.html">Hidden Form Field</a><br>
   <a href="url/index.html">URL Rewriting</a><br>
   <a href="session/index.html">HttpSession interface</a><br>
+  <a href="sessionexample/index.html">Servlet HttpSession Login and Logout </a><br>
 
   </body>
 </html>
