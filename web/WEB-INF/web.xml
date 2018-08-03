@@ -74,6 +74,14 @@
         <servlet-name>s14</servlet-name>
         <servlet-class>cookie.ProfileServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>s15</servlet-name>
+        <servlet-class>hidden.FirstServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>s16</servlet-name>
+        <servlet-class>hidden.SecondServlet</servlet-class>
+    </servlet>
 
     <context-param>
         <param-name>drivername</param-name>
@@ -145,6 +153,14 @@
     <servlet-mapping>
         <servlet-name>s14</servlet-name>
         <url-pattern>/cookie/ProfileServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s15</servlet-name>
+        <url-pattern>/hidden/hiddenServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s16</servlet-name>
+        <url-pattern>/hidden/hiddenServlet2</url-pattern>
     </servlet-mapping>
 
 

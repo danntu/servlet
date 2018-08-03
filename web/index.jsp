@@ -21,6 +21,7 @@
   <a href="servlet1">SetAtribute DemoServlet1</a><br>
   <a href="cookie/cookie.html">Cookie Example</a><br>
   <a href="cookie/index.html">Servlet Login and Logout Example using Cookies</a><br>
+  <a href="hidden/index.html">Hidden Form Field</a><br>
 
   </body>
 </html>
