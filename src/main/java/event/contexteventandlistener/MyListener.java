@@ -7,7 +7,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class MyListener implements ServletContextListener {
-    @Override
+
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         try{
             Class.forName("com.mysql.jdbc.Driver");
@@ -20,7 +20,7 @@ public class MyListener implements ServletContextListener {
         }
     }
 
-    @Override
+
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
 
     }
