@@ -8,7 +8,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
 public class MyListener2 implements ServletContextListener {
-    @Override
+
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         try{
 
@@ -27,7 +27,7 @@ public class MyListener2 implements ServletContextListener {
         }
     }
 
-    @Override
+
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
         System.out.println("project undeployed");
     }
