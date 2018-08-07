@@ -25,6 +25,7 @@
   <a href="url/index.html">URL Rewriting</a><br>
   <a href="session/index.html">HttpSession interface</a><br>
   <a href="sessionexample/index.html">Servlet HttpSession Login and Logout </a><br>
+  <a href="event/httpsession/index.html">HttpSessionEvent and HttpSessionListener</a><br>
 
   </body>
 </html>

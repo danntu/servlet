@@ -3,6 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <listener>
+        <listener-class>event.sessioneventandlistener.CountUserListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>event.contexteventandlistener.MyListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>event.contexteventandlistener.MyListener2</listener-class>
+    </listener>
     <servlet>
         <servlet-name>s1</servlet-name>
         <servlet-class>First</servlet-class>
@@ -110,6 +119,16 @@
         <servlet-name>s23</servlet-name>
         <servlet-class>sessionexample.Profile</servlet-class>
     </servlet>
+    <!--HttpSessionEvent and HttpSessionListener-->
+    <servlet>
+        <servlet-name>s24</servlet-name>
+        <servlet-class>event.sessioneventandlistener.First</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>s25</servlet-name>
+        <servlet-class>event.sessioneventandlistener.LogoutServlet</servlet-class>
+    </servlet>
+
 
     <context-param>
         <param-name>drivername</param-name>
@@ -218,7 +237,15 @@
         <servlet-name>s23</servlet-name>
         <url-pattern>/sessionexample/ProfileServlet</url-pattern>
     </servlet-mapping>
-
+    <!--HttpSessionEvent and HttpSessionListener-->
+    <servlet-mapping>
+        <servlet-name>s24</servlet-name>
+        <url-pattern>/event/httpsession/FirstServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s25</servlet-name>
+        <url-pattern>/event/httpsession/LogoutServlet</url-pattern>
+    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
