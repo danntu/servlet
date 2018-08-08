@@ -9,7 +9,6 @@ public class CountUserListener implements HttpSessionListener {
     ServletContext servletContext = null;
     static int total = 0, current = 0;
 
-    @Override
     public void sessionCreated(HttpSessionEvent httpSessionEvent) {
         total++;
         current++;
@@ -19,7 +18,6 @@ public class CountUserListener implements HttpSessionListener {
         servletContext.setAttribute("currentusers",current);
     }
 
-    @Override
     public void sessionDestroyed(HttpSessionEvent httpSessionEvent) {
         current--;
         servletContext.setAttribute("currentusers",current);
