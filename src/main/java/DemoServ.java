@@ -13,7 +13,12 @@ public class DemoServ extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         PrintWriter writer =  resp.getWriter();
         writer.println("Welcome " +req.getParameter("name"));
-        writer.println("HTTP headers sent by your client:<br>");
+        writer.println("req.getContentLength() "+req.getContentLength());
+        writer.println("req.getCharacterEncoding() "+req.getCharacterEncoding());
+        writer.println("req.getContentType() "+req.getContentType());
+        writer.println("req.getServerName() "+req.getServerName());
+
+        writer.println("<br><br>HTTP headers sent by your client:<br>");
         Enumeration<String> enumeration = req.getHeaderNames();
         while (enumeration.hasMoreElements()) {
             String headerName = (String) enumeration.nextElement();
