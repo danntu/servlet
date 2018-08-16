@@ -128,6 +128,11 @@
         <servlet-name>s25</servlet-name>
         <servlet-class>event.sessioneventandlistener.LogoutServlet</servlet-class>
     </servlet>
+    <!--Servlet Filter-->
+    <servlet>
+        <servlet-name>s26</servlet-name>
+        <servlet-class>filter.HelloServlet</servlet-class>
+    </servlet>
 
 
     <context-param>
@@ -246,8 +251,21 @@
         <servlet-name>s25</servlet-name>
         <url-pattern>/event/httpsession/LogoutServlet</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s26</servlet-name>
+        <url-pattern>/filter/myfilter</url-pattern>
+    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <filter>
+        <filter-name>f1</filter-name>
+        <filter-class>filter.MyFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>f1</filter-name>
+        <url-pattern>/filter/myfilter</url-pattern>
+    </filter-mapping>
 </web-app>
