@@ -134,6 +134,11 @@
         <servlet-class>filter.HelloServlet</servlet-class>
     </servlet>
 
+    <!--Authetication Filter-->
+    <servlet>
+        <servlet-name>s27</servlet-name>
+        <servlet-class>filter.authentication.AdminServlet</servlet-class>
+    </servlet>
 
     <context-param>
         <param-name>drivername</param-name>
@@ -255,6 +260,10 @@
         <servlet-name>s26</servlet-name>
         <url-pattern>/filter/myfilter</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s27</servlet-name>
+        <url-pattern>/filter/authentication/myfilter</url-pattern>
+    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
@@ -263,9 +272,18 @@
         <filter-name>f1</filter-name>
         <filter-class>filter.MyFilter</filter-class>
     </filter>
+    <filter>
+        <filter-name>f2</filter-name>
+        <filter-class>filter.authentication.MyFilter</filter-class>
+    </filter>
+
 
     <filter-mapping>
         <filter-name>f1</filter-name>
         <url-pattern>/filter/myfilter</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>f2</filter-name>
+        <url-pattern>/filter/authentication/myfilter</url-pattern>
     </filter-mapping>
 </web-app>
