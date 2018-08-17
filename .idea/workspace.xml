@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94798cb8-d811-49d0-8780-78113f0222b1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/config/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/config/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/filter/config/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="305" column="17" lean-forward="true" selection-start-line="305" selection-start-column="17" selection-end-line="305" selection-end-column="17" />
+            <state relative-caret-position="139">
+              <caret line="292" column="28" selection-start-line="292" selection-start-column="28" selection-end-line="292" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -54,8 +48,8 @@
       <file leaf-file-name="MyFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/filter/config/MyFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="114">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,13 +78,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MyFilter1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFilter2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -125,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/login.html" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/link.html" />
         <option value="$PROJECT_DIR$/src/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/LogoutServlet.java" />
@@ -174,8 +190,10 @@
         <option value="$PROJECT_DIR$/src/main/java/filter/config/HelloServlet.java" />
         <option value="$PROJECT_DIR$/web/filter/config/index.html" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/filter/config/MyFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/config/MyFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter2.java" />
       </list>
     </option>
   </component>
@@ -273,7 +291,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="usefulexamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="servlet" type="b2602c69:ProjectViewProjectNode" />
@@ -471,7 +489,7 @@
       <workItem from="1534388537878" duration="3432000" />
       <workItem from="1534417226973" duration="109000" />
       <workItem from="1534476319688" duration="2425000" />
-      <workItem from="1534482871402" duration="1547000" />
+      <workItem from="1534482871402" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="Servlet. Servlet Interface">
       <created>1533109365533</created>
@@ -683,11 +701,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534479192584</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Servlet. FilterConfig">
+      <created>1534484547290</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1534484547290</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45279000" />
+    <option name="totallyTimeSpent" value="46225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -715,7 +740,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3297619" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.3345238" />
       <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.4978308" weight="0.32857144" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33279222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33279222" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" weight="0.32954547" />
@@ -799,19 +824,12 @@
     <MESSAGE value="Servlet. ServletRequest Interface" />
     <MESSAGE value="Servlet. Servlet Filter" />
     <MESSAGE value="Servlet. Authentication Filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet. Authentication Filter" />
+    <MESSAGE value="Servlet. FilterConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlet. FilterConfig" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/filter/config/MyFilter.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="9" />
     </breakpoint-manager>
   </component>
@@ -841,20 +859,6 @@
     <option name="serverIp" value="localhost" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/java/jdk1.8.0_141/src.zip!/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_141/src.zip!/java/io/PrintWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hidden/SecondServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1175,10 +1179,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/filter/config/index.html">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="139">
+          <caret line="292" column="28" selection-start-line="292" selection-start-column="28" selection-end-line="292" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/config/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,20 +1206,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filter/config/MyFilter.java">
+    <entry file="file://$PROJECT_DIR$/web/filter/config/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="189">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/usefulexamples/MyFilter2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="305" column="17" lean-forward="true" selection-start-line="305" selection-start-column="17" selection-end-line="305" selection-end-column="17" />
+        <state relative-caret-position="432">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
