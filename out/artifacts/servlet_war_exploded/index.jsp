@@ -28,6 +28,7 @@
   <a href="event/httpsession/index.html">HttpSessionEvent and HttpSessionListener</a><br>
   <a href="filter/filter.html">Servlet Filter</a><br>
   <a href="filter/authentication/index.html">Authentication Filter</a><br>
+  <a href="filter/config/index.html">Config Filter</a><br>
 
   </body>
 </html>
