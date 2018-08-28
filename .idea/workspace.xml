@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94798cb8-d811-49d0-8780-78113f0222b1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagination/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagination/EmpDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagination/ViewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pagination/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pagination/EmpDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -450,7 +444,7 @@
       <workItem from="1534476319688" duration="2425000" />
       <workItem from="1534482871402" duration="2493000" />
       <workItem from="1534496702788" duration="632000" />
-      <workItem from="1535445449744" duration="3208000" />
+      <workItem from="1535445449744" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="Servlet. Servlet Interface">
       <created>1533109365533</created>
@@ -669,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534484547290</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Servlet. Pagination in Servlet">
+      <created>1535449832444</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1535449832444</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50065000" />
+    <option name="totallyTimeSpent" value="50143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -690,7 +691,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" visible="true" weight="0.39880952" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39880952" />
       <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.4978308" weight="0.32932693" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32857144" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -785,7 +786,8 @@
     <MESSAGE value="Servlet. Servlet Filter" />
     <MESSAGE value="Servlet. Authentication Filter" />
     <MESSAGE value="Servlet. FilterConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet. FilterConfig" />
+    <MESSAGE value="Servlet. Pagination in Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlet. Pagination in Servlet" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1199,7 +1201,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pagination/EmpDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
